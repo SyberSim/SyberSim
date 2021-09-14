@@ -1,0 +1,74 @@
+nav.menu ul li.retour a{
+    background-color: #D62828;
+    color : white;
+    text-decoration: none;
+    padding: 10px
+}
+nav.menu ul li.retour{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav.menu ul li.retour:hover a{
+        background-color: red;
+        transition: 0.3s
+
+}
+nav.menu ul li.lien{
+    display: inline-block;
+    list-style-type: none;
+}
+nav.menu ul li.lien a{
+    background-color: #004EC7;
+    color : white;
+    text-decoration: none;
+    padding: 10px
+}
+nav.menu ul li.lien:hover a{
+    background-color: blue;
+    transition: 0.3s
+}
+header{
+    background-color: lightblue;
+}
+div#content div{
+    display: inline-block;
+    width: 49%
+}
+
+div#content div.left{
+    background-color:#0064FF;
+
+}
+
+div#content div.right{
+    background-color:#2970DE;
+    vertical-align: top;
+}
+div#content div h4, p{
+    margin: 50px
+}
+div#content{
+    background-color: #000;
+}
+footer{
+    background-color: #53565A;
+    font-family : Amiri Quran;
+}
+body{
+    background-color : #fff;
+    margin: 0;
+    width: 100%
+}
+
+h1{
+    margin: 0;
+}
+
+
+
+
+
+
+
+

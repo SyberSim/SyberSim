@@ -1,0 +1,167 @@
+<!-- Created: 05/01/2021 by GUIRAUD S -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional/EN">
+<html>
+  <head>
+    <title>Roleplay-Inscription</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="generator" content="PyScripter">
+    <link class="css" rel="stylesheet" type="text/css" href="../Stylesheets/style.css"/>
+    <link rel="shortcut icon" href="../ImagesSite/icone.jpg" type="image/jpg"/>
+
+    <style>
+     form {   /* design tableau */
+     	border : groove 10px red;
+        padding : 10px;
+     }
+     </style>
+  </head>
+
+
+
+
+    <script>
+        function afficherResultats ()
+        {
+	        var prenom = document.getElementById("prenom").value;
+            var nom = document.getElementById("nom").value;
+            var age = parseInt(  document.getElementById("age").value);
+            var Femme = document.getElementById("Femme").value;
+            var Homme = document.getElementById("Homme").value;
+            var Autre = parseInt(  document.getElementById("Autre").value);
+            var Chat = document.getElementById("prenom").value;
+            var Chien = document.getElementById("nom").value;
+            var Autre2 = parseInt(  document.getElementById("Autre2").value);
+            }
+    </script>
+  <body>
+
+        <header>
+        <h1><u>S'inscrire</u></h1>
+        </header>
+        <nav class="menu"> <!-- menu navigation--!>
+            <ul>
+                <li class="retour"><a href="../Index.html" target="_BLANK">Index</a></li><br />
+                <li class="lien"><a href="./Nous contacter.htm" target="_BLANK">Nous contacter</a></li><br />
+                <li class="lien"><a href="./Comment jouer.htm" target="_BLANK">Comment jouer</a></li><br />
+            </ul>
+
+        </nav>
+        <div id="content">
+            <div class="top">
+            <h4>Inscrivez vous !</h4>
+            <p>Complétez le formulaire ci-dessous pour vous inscrire :</p>
+
+
+
+            </div>
+
+            <div class="bot"> <!--Contenu formulaire--!>
+            <form >
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" value="Simon"><br>
+        <label for="nom">Nom:</label><br>
+        <input type="text" id="nom" value="Guiraud"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" value="" placeholder= "taper votre âge ici">
+        <br/>
+        <label for="Femme">Femme :</label>
+        <input type="radio" name="genre" checked id="Femme" value=""/>
+        <br/>
+        <label for="Homme">Homme :</label>
+        <input type="radio" name="genre" id="Homme" value="" />
+        <br/>
+        <label for="Autre">Non binaire :</label>
+        <input type="radio" name="genre" id="Autre" value="" /><br />
+        <br />
+        Chat:  <input name="animal" type="checkbox" value="Chat"><br />
+        Chien:  <input name="animal" type="checkbox" value="Chien"><br />
+        Autre:  <input name="animal" type="checkbox" value="Autre2"><br />
+
+
+        <br />
+        <br/>
+        <input type="button" value="Envoyer" onclick="afficherResultats();">
+      </form> <!--le formulaire ne s'envoie pas je n'ai pas réussi--!>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+    <footer>
+     <p>
+                Copyright &copy; SyberSim All Right Reserved
+            </p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

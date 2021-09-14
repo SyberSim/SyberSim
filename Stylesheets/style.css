@@ -1,0 +1,64 @@
+nav.menu ul li.lien{
+    list-style-type: none;
+}
+nav.menu ul li.retour a{
+    background-color: #fff;
+    color : #779793;
+    text-decoration: none;
+    padding: 10px
+}
+nav.menu ul li.retour{
+    list-style-type: none;
+}
+
+nav.menu ul li.retour:hover a{
+    background-color: #779793;
+    color : #fff;
+    transition: 0.3s;
+
+}
+nav.menu ul li.lien a{
+    background-color: #fff;
+    color : #779793;
+    text-decoration: none;
+    padding: 10px
+}
+nav.menu ul li.lien:hover a{
+    background-color: #779793;
+    color : #fff;
+    transition: 0.3s;
+}
+header{
+    background-color: lightblue;
+}
+div#content div{
+    width: 49%
+}
+
+div#content div.top{
+    background-color:#2A670C;
+
+}
+
+div#content div.bot{
+    background-color:#2A670C;
+}
+div#content div h4, p{
+    margin: 50px
+}
+div#content{
+    background-color: #000;
+}
+footer{
+    background-color: #53565A;
+    font-family : Amiri Quran;
+}
+body{
+    background-color: #667472;
+    background-color : ;
+}
+
+h1{
+    margin: 0;
+}
+
